@@ -9,4 +9,6 @@ RUN sudo apt-get update && \
 # Install git-crypt
     sudo apt-get install git-crypt && \
 # Install azure-cli
-    sudo apt-get install azure-cli
+    sudo apt-get install azure-cli && \
+# Install azure-functions-core-tools
+    sudo apt-get install azure-functions-core-tool
